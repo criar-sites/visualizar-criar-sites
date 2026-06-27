@@ -69,6 +69,19 @@ nav{
     background:#1cb353;
 }
 
+@media (max-width: 396px) {
+    .btn {
+        width: fit-content;
+        margin: 0 auto;        /* centraliza o botão */
+        padding: 10px 18px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 .hero{
     padding:160px 0 100px;
     background:linear-gradient(135deg,#2563eb,#3b82f6);
